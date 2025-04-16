@@ -25,9 +25,6 @@ def on_mouse_down(pos):
         if next>0:
             lines.append((sat[next-1].pos,sat[next].pos))
             print(lines)
-        next=next+1
-
-
-
+            next=next+1
 
 pgzrun.go()
